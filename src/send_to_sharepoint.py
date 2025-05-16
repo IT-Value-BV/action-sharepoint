@@ -29,7 +29,7 @@ tenant_url = f'https://{sharepoint_host_name}/sites/{site_name}'
 local_files = glob.glob(file_path, recursive=recursive_glob)
 
 print('Path:', file_path)
-print('Recursive:, recursive_glob)
+print('Recursive:', recursive_glob)
 print('Files:', local_files)
 
 
