@@ -28,6 +28,8 @@ tenant_url = f'https://{sharepoint_host_name}/sites/{site_name}'
 # we're running this in actions, so we'll only ever have one .md file
 local_files = glob.glob(file_path, recursive=recursive_glob)
 
+print(local_files)
+
 def acquire_token():
     """
     Acquire token via MSAL
